@@ -1,23 +1,25 @@
 package com.syntax.class07;
 
+import java.util.Scanner;
+
 public class LoopDoWhile {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		boolean workDay= true;
-		int day=1;
-		
-		while(workDay) {
-			if(day<6) {
-			System.out.println("I need a day off");
-			}else {
-				System.out.println("It is weekend and I am off");
-				
-			}
-			day++;
-			workDay=false;
-	}
+		//ask user what is his name 5 times-->print hello=name
 
+		Scanner scan;
+		String name;
+		
+	    scan=new Scanner (System.in);
+	    
+	    int number=1;
+	    while(number<=5) {
+	    System.out.println("Please tell me your name");
+	    name=scan.nextLine();
+	    System.out.println("Nice to meet you" + name);
+	    number++;
+	    }
 }
 }
