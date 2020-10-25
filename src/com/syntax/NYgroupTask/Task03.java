@@ -12,8 +12,22 @@ public class Task03 {
 			System.out.print(i+" ");
 			System.out.print(j+" ");
 		}
-			
+		System.out.println();	
+		System.out.println("-----------------");
+		
+		
+		
+		int a = 0;
+		int b = 1;
+		int c;
+		for (int i = 1; i <= 10; i++) {
+			System.out.print(a + " ");
+			c = a + b;
+			a = b;
+			b = c;
+		
 		
 	}
 
+  }
 }

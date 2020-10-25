@@ -1,5 +1,7 @@
 package com.syntax.NYgroupTask;
 
+import java.util.Arrays;
+
 public class Task05 {
 
 	public static void main(String[] args) {
@@ -25,10 +27,14 @@ public class Task05 {
 		System.out.println("The min number in the array is " + min);
 
 		
+		System.out.println();
+		System.out.println("--------------------------------------------------");
 		
 		
-		
-		
+		double[] num1 = {1,5,3,6};
+		int length=num1.length;
+		Arrays.sort(num1);
+		System.out.println("Second highest number is "+num1[length-2]);
 		
 		
 		
