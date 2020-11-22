@@ -1,4 +1,4 @@
-package com.syntax.NYgroupTask;
+package com.syntax.NyGroupFirstProject;
 
 public class Task06 {
 
