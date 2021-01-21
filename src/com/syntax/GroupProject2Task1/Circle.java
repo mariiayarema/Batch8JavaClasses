@@ -7,7 +7,7 @@ public class Circle implements Shape{
     }
     @Override
     public void calculateArea() {
-        System.out.println("Circle area is "+Math.PI*radius);
+        System.out.println("Circle area is "+Math.PI*(radius*radius));
     }
 
     @Override
